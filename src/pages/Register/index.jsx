@@ -40,7 +40,6 @@ export const Register = () => {
   }
 
   return (
-    <AuthLayout>
       <AuthFormContainer bannerSrc={banner}>
         <Typography variant='h1' color='--offwhite'>
           Cadastro
@@ -88,6 +87,5 @@ export const Register = () => {
           </Link>
         </footer>
       </AuthFormContainer>
-    </AuthLayout>
   );
 };

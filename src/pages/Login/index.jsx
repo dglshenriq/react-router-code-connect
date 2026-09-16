@@ -32,7 +32,6 @@ export const Login = () => {
     }
   };
   return (
-    <AuthLayout>
       <AuthFormContainer bannerSrc={banner}>
         <Typography variant='h1' color='--offwhite'>
           Login
@@ -76,6 +75,5 @@ export const Login = () => {
           </Link>
         </footer>
       </AuthFormContainer>
-    </AuthLayout>
   );
 };

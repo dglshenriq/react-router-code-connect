@@ -16,7 +16,6 @@ export const BlogPost = () => {
     const post = posts.find(p => p.slug === slug)
     
     return (
-        <AppLayout>
             <main className={styles.main}>
                 <article className={styles.card}>
                     <header className={styles.header}>
@@ -59,6 +58,5 @@ export const BlogPost = () => {
                 </div>
                 <CommentList comments={post.comments} />
             </main>
-        </AppLayout>
     )
 }
