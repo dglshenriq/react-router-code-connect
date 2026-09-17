@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router";
 import { Register } from "../pages/Register";
-import { ProtectedRoute } from "../components/ProtectedRoute";
 import { BlogPost } from "../pages/BlogPost";
 import { Login } from "../pages/Login";
 import { Logout } from "../pages/Logout";
@@ -22,17 +21,13 @@ export const AppRouter = () => {
           <Route
             path=''
             element={
-              <ProtectedRoute>
                 <Feed />
-              </ProtectedRoute>
             }
           />
           <Route
             path='blog-post/:slug'
             element={
-              <ProtectedRoute>
                 <BlogPost />
-              </ProtectedRoute>
             }
           />
           <Route path="*" element={<NotFound />} />
