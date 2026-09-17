@@ -1,6 +1,4 @@
-import { AppLayout } from "../../layouts/App"
 import { CardPost } from "../../components/CardPost"
-import { posts } from "./data"
 import styles from './feed.module.css'
 
 export const Feed = () => {
