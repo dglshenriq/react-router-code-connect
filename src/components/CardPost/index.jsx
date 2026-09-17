@@ -1,5 +1,6 @@
-import { Author } from "../Author"
 import styles from './cardpost.module.css'
+
+import { Author } from "../Author"
 import { ModalComment } from "../ModalComment"
 import { ThumbsUpButton } from "./ThumbsUpButton"
 import { Link } from "react-router"
